@@ -4,6 +4,16 @@
   font-family: 'Spline Sans', serif;
 }
 
+  
+a{
+  text-decoration: none;
+  color:#ffffff;
+}
+a:visited{
+  text-decoration: none;
+  color: #ffffff;
+}
+
 #banner-logo {
   width: 155px;
   height: 56px;
@@ -151,6 +161,7 @@
   max-width: 1157px;
   margin: auto;
 }
+
 
 #why-invest {
   height: 719px;
@@ -365,11 +376,7 @@
   #hero-child h1{
     color: #af751f;
   }
-  
-  a{
-    text-decoration: none;
-    color:#ffffff;
-  }
+
 
   #our-approach h2 {
     font-size: 24px;
