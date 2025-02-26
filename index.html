@@ -1,238 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Protoseed Ventures - Fueling Student Innovation</title>
-    <style>
-        /* Base Styles */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Arial', sans-serif;
-        }
-
-        /* Navbar */
-        .navbar {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 1rem 5%;
-            background: #ffffff;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
-
-        .nav-brand {
-            font-size: 1.5rem;
-            font-weight: bold;
-            color: #2A5C3C;
-        }
-
-        .nav-links {
-            display: flex;
-            gap: 2rem;
-        }
-
-        /* Hero Section */
-        .hero {
-            padding: 4rem 5%;
-            text-align: center;
-            background: #F8F9FA;
-        }
-
-        .hero h1 {
-            font-size: 2.5rem;
-            margin-bottom: 1rem;
-            color: #2A5C3C;
-        }
-
-        .hero p {
-            color: #666;
-            margin-bottom: 2rem;
-        }
-
-        .cta-button {
-            background: #2A5C3C;
-            color: white;
-            padding: 1rem 2rem;
-            border-radius: 5px;
-            text-decoration: none;
-        }
-
-        /* Thesis Section */
-        .thesis {
-            padding: 4rem 5%;
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 2rem;
-        }
-
-        .criteria-grid {
-            display: grid;
-            gap: 1rem;
-        }
-
-        .criteria-card {
-            padding: 1.5rem;
-            border: 1px solid #eee;
-            border-radius: 8px;
-        }
-
-        /* Approach Section */
-        .approach {
-            padding: 4rem 5%;
-            background: #F8F9FA;
-        }
-
-        .offerings-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 2rem;
-            margin-top: 2rem;
-        }
-
-        .offering-card {
-            padding: 2rem;
-            background: white;
-            border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-        }
-
-        /* Application Section */
-        .application {
-            padding: 4rem 5%;
-            text-align: center;
-        }
-
-        .application-form {
-            max-width: 600px;
-            margin: 2rem auto;
-        }
-
-        .form-input {
-            width: 100%;
-            padding: 1rem;
-            margin-bottom: 1rem;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-        }
-
-        /* Footer */
-        footer {
-            background: #2A5C3C;
-            color: white;
-            padding: 2rem 5%;
-            text-align: center;
-        }
-
-        .footer-links {
-            margin-bottom: 1rem;
-        }
-
-        .footer-links a {
-            color: white;
-            text-decoration: none;
-            margin: 0 1rem;
-        }
-    </style>
-</head>
-<body>
-    <!-- Navbar -->
-    <nav class="navbar">
-        <div class="nav-brand">Protoseed Ventures</div>
-        <div class="nav-links">
-            <a href="#thesis">Our Thesis</a>
-            <a href="#approach">Our Approach</a>
-            <a href="#apply">Apply</a>
-            <a href="#invest">Invest</a>
-        </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <header class="hero">
-        <h1>Empowering Africa's Student Innovators</h1>
-        <p>Investing in high-potential startups led by Africa's brightest students and recent graduates</p>
-        <a href="#apply" class="cta-button">Apply for Funding</a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Protoseed-Ventures</title>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="header" role="banner">
+      <img
+        src="./public/assets/logo.png"
+        id="banner-logo"
+        alt="Protoseed Ventures Logo"
+      />
+      <div class="btn-container">
+        <button
+          id="follow-btn"
+          aria-label="Follow Protoseed Ventures on social media"
+        >
+          Follow us
+        </button>
+        <button
+          class="filled-btn"
+          aria-label="Submit your business idea to Protoseed Ventures"
+        >
+          Submit idea
+        </button>
+      </div>
     </header>
-
-    <!-- Thesis Section -->
-    <section id="thesis" class="thesis">
+    <div id="hero-section">
+      <div id="hero-child">
+        <h2>From classroom to boardroom</h2>
+        <p>
+          We empower(help) ambitious African students to transform bold ideas
+          into scalable, high-impact startups through expert mentorship,
+          hands-on support, and strategic funding—creating ventures that reach
+          far beyond borders.
+        </p>
         <div>
-            <h2>Our Investment Thesis</h2>
-            <div class="criteria-grid">
-                <div class="criteria-card">
-                    <h3>Innovation</h3>
-                    <p>Breakthrough solutions in SaaS, EdTech, Logistech & Digital Media</p>
-                </div>
-                <div class="criteria-card">
-                    <h3>Commerciality</h3>
-                    <p>Viable business models with clear paths to profitability</p>
-                </div>
-                <div class="criteria-card">
-                    <h3>Scalability</h3>
-                    <p>Potential for rapid growth across African markets</p>
-                </div>
-            </div>
+          <button
+            class="filled-btn"
+            aria-label="Submit your business idea to Protoseed Ventures"
+          >
+            Submit idea
+          </button>
+          <button
+            class="outlined-btn"
+            aria-label="Invest with Protoseed Ventures"
+          >
+            Invest with us
+          </button>
         </div>
-        <div>
-            <img src="industry-focus.png" alt="Industry Focus" style="max-width: 100%;">
+      </div>
+    </div>
+    <div id="thesis">
+      <div id="thesis-text">
+        <h2>Our Thesis</h2>
+        <p>
+          By supporting founders early in their journey, we aim to foster the
+          growth of tech-driven startups that have the potential to drive
+          economic development, create jobs, and revolutionize industries across
+          the continent.
+        </p>
+        <!-- <p>Our criteria:</p> -->
+      </div>
+      <img
+        id="thesis-image"
+        src="./public/assets/thesis.png"
+        alt="Protoseed thesis"
+      />
+    </div>
+    <section id="our-approach">
+      <div id="approach-container">
+        <div id="approach-header">
+          <h2>Our Approach</h2>
+          <p>
+            We’re not just investors—we’re partners who combine industry
+            know-how with a worldwide community of innovators to turn your bold
+            ideas into solutions that reshape industries
+          </p>
         </div>
+        <p id="approach-title">What we offer</p>
+        <div class="what-we-offer-container">
+          <div class="we-offer-child">
+            <p class="title">Hands-on Support</p>
+            <img src="./public/assets/Image-1.png" class="we-offer-img" />
+          </div>
+          <div class="we-offer-child">
+            <p class="title">Local Industry Expertise</p>
+            <img src="./public/assets/Image-2.png" class="we-offer-img" />
+          </div>
+          <div class="we-offer-child">
+            <p class="title">Founder Spotlight</p>
+            <img src="./public/assets/Image-3.png" class="we-offer-img" />
+          </div>
+        </div>
+      </div>
     </section>
-
-    <!-- Approach Section -->
-    <section id="approach" class="approach">
-        <h2>Our Value-Add Approach</h2>
-        <div class="offerings-grid">
-            <div class="offering-card">
-                <h3>Seed Funding</h3>
-                <p>$50K - $500K investments in early-stage ventures</p>
-            </div>
-            <div class="offering-card">
-                <h3>Mentorship</h3>
-                <p>Access to industry experts and successful founders</p>
-            </div>
-            <div class="offering-card">
-                <h3>Network Access</h3>
-                <p>Connections to investors and corporate partners</p>
-            </div>
+    <section id="why-invest">
+      <div id="invest-with-us">
+        <div id="left">
+          <h2>Want to invest with us?</h2>
+          <p>
+            Join the train to build Africa’s largest Innovation pipeline and
+            together we can drive economic growth, job creation and innovation
+            on the continent
+          </p>
+          <div>
+            <button
+              class="filled-btn"
+              aria-label="Submit your business idea to Protoseed Ventures"
+            >
+              Send an email
+            </button>
+            <button
+              class="outlined-btn"
+              aria-label="Invest with Protoseed Ventures"
+            >
+              Reach out on LinkedIn
+            </button>
+          </div>
         </div>
+        <img
+          src="./public/assets/invest-with.png"
+          alt="invest with us"
+          id="invest-with-us-img"
+        />
+      </div>
     </section>
-
-    <!-- Application Section -->
-    <section id="apply" class="application">
-        <h2>Ready to Transform Your Idea?</h2>
-        <form class="application-form">
-            <input type="text" class="form-input" placeholder="Full Name">
-            <input type="email" class="form-input" placeholder="Email Address">
-            <select class="form-input">
-                <option>Startup Stage</option>
-                <option>Ideation</option>
-                <option>Prototype</option>
-                <option>Early Traction</option>
-            </select>
-            <input type="file" class="form-input" accept=".pdf">
-            <button type="submit" class="cta-button">Submit Application</button>
-        </form>
-    </section>
-
-    <!-- Investor Section -->
-    <section id="invest" class="application" style="background: #2A5C3C; color: white;">
-        <h2>Want to Invest with Us?</h2>
-        <p>Join our mission to build Africa's next tech giants while generating strong financial returns</p>
-        <div style="margin-top: 2rem;">
-            <a href="mailto:info@protoseedventures.com" class="cta-button" style="background: white; color: #2A5C3C;">Email Us</a>
+    <footer id="footer">
+      <div id="top-container">
+        <img
+          src="./public/assets/footer-logo.png"
+          id="banner-logo"
+          alt="Protoseed Ventures Logo"
+        />
+        <p>Privacy Policy</p>
+        <div id="icon-box">
+          <img src="./public/assets/twitter.png" alt="twitter" />
+          <img src="./public/assets/facebook.png" alt="facebook" />
+          <img src="./public/assets/instagram.png" alt="instagram" />
         </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <div class="footer-links">
-            <a href="#privacy">Privacy Policy</a>
-            <a href="#terms">Terms of Service</a>
-            <a href="#portfolio">Portfolio</a>
-        </div>
-        <p>© 2024 Protoseed Ventures. All rights reserved.</p>
+      </div>
+      <p>© Copyright 2025, All Rights Reserved by Protoseed Ventures</p>
     </footer>
-</body>
+  </body>
 </html>
