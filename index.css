@@ -1,0 +1,399 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Spline Sans', serif;
+}
+
+#banner-logo {
+  width: 155px;
+  height: 56px;
+}
+
+#follow-btn {
+  border: 0px transparent;
+  background: inherit;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 12px 24px;
+}
+
+.filled-btn {
+  background-color: #af751f;
+  color: #ffffff;
+  border: 2px solid #af751f;
+  border-radius: 8px;
+  padding: 12px 24px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.outlined-btn {
+  color: #af751f;
+  background-color: inherit;
+  border: 2px solid #af751f;
+  border-radius: 8px;
+  padding: 12px 24px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#header {
+  max-width: 1157px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  height: 100px;
+}
+
+#hero-section {
+  background-image: url('./public/assets/hero-1.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 760px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 10px;
+}
+
+#hero-child {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 571px;
+}
+
+#thesis {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1157px;
+  margin: auto;
+  height: 764px;
+  gap: 30px;
+  padding: 30px 5px;
+}
+
+#thesis-image {
+  width: 95%;
+  height: 411px;
+  max-width: 500px;
+}
+
+#thesis-text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  text-align: center;
+}
+#thesis-text h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #af751f;
+}
+
+#thesis-text p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#our-approach {
+  background-color: #af751f;
+  padding: 10px;
+}
+
+#approach-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#our-approach h2 {
+  background-color: #000;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  width: fit-content;
+  padding: 10px 15px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+#approach-header p {
+  font-size: 30px;
+  color: white;
+  text-decoration: underline;
+  max-width: 855px;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 500;
+}
+
+#approach-title {
+  font-size: 30px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-top: 50px;
+  text-align: center;
+}
+
+#approach-container {
+  max-width: 1157px;
+  margin: auto;
+}
+
+#why-invest {
+  height: 719px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 15px;
+}
+
+#invest-with-us {
+  background-color: #f8dbb1;
+  max-width: 1150.5px;
+  width: 100%;
+  border-radius: 8px;
+  position: relative;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+}
+
+#invest-with-us h2 {
+  max-width: 12ch;
+}
+
+#invest-with-us p {
+  max-width: 45ch;
+}
+
+#invest-with-us #left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#invest-with-us-img {
+  width: 278px;
+  height: 182px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-bottom-right-radius: 8px;
+}
+
+#footer {
+  background-color: #000;
+}
+
+#footer p {
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  padding: 15px 0px;
+}
+
+#top-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 20px;
+}
+
+#icon-box img {
+  width: 28.35px;
+  height: 28.35px;
+  margin-right: 10px;
+}
+
+.what-we-offer-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.we-offer-child {
+  width: 357px;
+  height: 493px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  gap: 15px;
+  padding: 0px 10px;
+}
+
+.we-offer-img {
+  width: 100%;
+  height: 379px;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.what-we-offer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+@media screen and (max-width: 430px) {
+  #invest-with-us {
+    align-items: start;
+    padding-top: 60px;
+  }
+}
+
+@media screen and (min-width: 820px) {
+  #invest-with-us-img {
+    width: 378px;
+    height: 402px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-bottom-right-radius: 8px;
+  }
+
+  .we-offer-child {
+    width: 407px;
+    height: 493px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #header {
+    padding: 0px 10px;
+  }
+
+  #follow-btn {
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  .filled-btn {
+    padding: 10px;
+    font-size: 12px;
+  }
+  .outlined-btn {
+    padding: 10px;
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #hero-section {
+    position: relative;
+    padding: 0;
+  }
+  #hero-child {
+    position: absolute;
+    background-color: #ffffff;
+    border-radius: 8px;
+    top: 178px;
+    left: 805px;
+    padding: 48px;
+    gap: 36px;
+  }
+
+  #hero-child h2 {
+    font-weight: 700;
+    font-size: 60px;
+    max-width: 475px;
+  }
+
+  #hero-child p {
+    font-size: 16px;
+    font-weight: 300px;
+  }
+
+  #thesis {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 1157px;
+    margin: auto;
+    height: 764px;
+    gap: 10px;
+  }
+
+  #thesis-image {
+    width: 593px;
+    height: 511px;
+  }
+
+  #thesis-text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  #thesis-text h2 {
+    font-size: 60px;
+    font-weight: 700;
+    color: #af751f;
+    text-align: left;
+  }
+
+  #thesis-text p {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: left;
+  }
+
+  #our-approach {
+    padding: 50px;
+  }
+
+  #our-approach h2 {
+    font-size: 24px;
+  }
+
+  #approach-header p {
+    font-size: 48px;
+    margin-top: 20px;
+    font-weight: 500;
+  }
+
+  #approach-title {
+    font-size: 60px;
+    text-align: left;
+  }
+
+  #invest-with-us h2 {
+    max-width: 12ch;
+    font-size: 52px;
+    font-weight: 700;
+  }
+
+  #invest-with-us p {
+    max-width: 45ch;
+    font-size: 16px;
+  }
+
+  #invest-with-us-img {
+    width: 578px;
+    height: 402px;
+  }
+  .what-we-offer-container {
+    flex-direction: row;
+  }
+}
