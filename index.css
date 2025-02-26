@@ -130,9 +130,9 @@
 }
 
 #approach-header p {
-  font-size: 30px;
+  font-size: 16px;
   color: white;
-  text-decoration: underline;
+  /* text-decoration: underline; */
   max-width: 855px;
   text-align: center;
   margin-top: 20px;
@@ -362,19 +362,27 @@
   #our-approach {
     padding: 50px;
   }
+  #hero-child h1{
+    color: #af751f;
+  }
+  
+  a{
+    text-decoration: none;
+    color:#ffffff;
+  }
 
   #our-approach h2 {
     font-size: 24px;
   }
 
   #approach-header p {
-    font-size: 48px;
+    font-size: 18px;
     margin-top: 20px;
     font-weight: 500;
   }
 
   #approach-title {
-    font-size: 60px;
+    font-size: 40px;
     text-align: left;
   }
 
